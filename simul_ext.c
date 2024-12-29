@@ -78,7 +78,7 @@ int main() {
         } else if (strcmp(orden, "salir") == 0) { // se usa para salir del bucle
             break;
         } else {
-            printf("ERROR: Comando ilegal [bytemaps, copy, dir, info, imprimir, rename, remove, salir]\n"); // esto sale si se ha insertado de forma errónea el comando
+            printf("ERROR: Comando erróneo [bytemaps, copy, dir, info, imprimir, rename, remove, salir]\n"); // esto sale si se ha insertado de forma errónea el comando
         }
 
         // Guarda los cambios en partición si se necesita
